@@ -9,7 +9,8 @@ namespace Kermalis.PokemonBattleEngine
     /// </summary>
     public static class PBECompetitivePokemonShells
     {
-        public static PBEPokemonShell Absol_RU { get; } = new PBEPokemonShell
+        // Missing Pursuit
+        /*public static PBEPokemonShell Absol_1_RU { get; } = new PBEPokemonShell
         {
             Species = PBESpecies.Absol,
             Nickname = "Absoul",
@@ -21,10 +22,137 @@ namespace Kermalis.PokemonBattleEngine
             Nature = PBENature.Adamant,
             IVs = new byte[] { 31, 31, 31, 31, 31, 31 }, // Hidden Power: Dark/70
             EVs = new byte[] { 0, 252, 4, 0, 0, 252 },
-            Moves = new PBEMove[] { PBEMove.SwordsDance, PBEMove.SuckerPunch, PBEMove.NightSlash, PBEMove.Superpower }, // Sucker Punch, Superpower, Night Slash, Pursuit
+            Moves = new PBEMove[] { PBEMove.Pursuit, PBEMove.SuckerPunch, PBEMove.NightSlash, PBEMove.Superpower },
+            PPUps = new byte[] { 3, 3, 3, 3 }
+        };*/
+        public static PBEPokemonShell Absol_2_RU { get; } = new PBEPokemonShell
+        {
+            Species = PBESpecies.Absol,
+            Nickname = "Absoul",
+            Level = 100,
+            Friendship = 255,
+            Item = PBEItem.LumBerry,
+            Ability = PBEAbility.SuperLuck,
+            Gender = PBEGender.Male,
+            Nature = PBENature.Adamant,
+            IVs = new byte[] { 31, 31, 31, 31, 31, 31 }, // Hidden Power: Dark/70
+            EVs = new byte[] { 0, 252, 4, 0, 0, 252 },
+            Moves = new PBEMove[] { PBEMove.SwordsDance, PBEMove.SuckerPunch, PBEMove.NightSlash, PBEMove.Superpower },
             PPUps = new byte[] { 3, 3, 3, 3 }
         };
-        public static PBEPokemonShell Accelgor_VGC { get; } = new PBEPokemonShell
+        public static PBEPokemonShell Accelgor_1_RU { get; } = new PBEPokemonShell
+        {
+            Species = PBESpecies.Accelgor,
+            Nickname = "Sheba",
+            Level = 100,
+            Friendship = 255,
+            Item = PBEItem.ChoiceSpecs,
+            Ability = PBEAbility.StickyHold,
+            Gender = PBEGender.Female,
+            Nature = PBENature.Timid,
+            IVs = new byte[] { 31, 31, 30, 31, 30, 30 }, // Hidden Power: Rock/70
+            EVs = new byte[] { 4, 0, 0, 252, 0, 252 },
+            Moves = new PBEMove[] { PBEMove.BugBuzz, PBEMove.FocusBlast, PBEMove.HiddenPower, PBEMove.GigaDrain },
+            PPUps = new byte[] { 3, 3, 3, 3 }
+        };
+        public static PBEPokemonShell Accelgor_2_RU { get; } = new PBEPokemonShell
+        {
+            Species = PBESpecies.Accelgor,
+            Nickname = "Sheba",
+            Level = 100,
+            Friendship = 255,
+            Item = PBEItem.FocusSash,
+            Ability = PBEAbility.StickyHold,
+            Gender = PBEGender.Female,
+            Nature = PBENature.Timid,
+            IVs = new byte[] { 31, 31, 30, 31, 30, 30 }, // Hidden Power: Rock/70
+            EVs = new byte[] { 252, 0, 0, 4, 0, 252 },
+            Moves = new PBEMove[] { PBEMove.Spikes, PBEMove.FinalGambit, PBEMove.BugBuzz, PBEMove.HiddenPower },
+            PPUps = new byte[] { 3, 3, 3, 3 }
+        };
+        // Missing Encore
+        // Missing BatonPass
+        /*public static PBEPokemonShell Accelgor_3_RU { get; } = new PBEPokemonShell
+        {
+            Species = PBESpecies.Accelgor,
+            Nickname = "Sheba",
+            Level = 100,
+            Friendship = 255,
+            Item = PBEItem.Leftovers,
+            Ability = PBEAbility.StickyHold,
+            Gender = PBEGender.Female,
+            Nature = PBENature.Timid,
+            IVs = new byte[] { 31, 31, 31, 31, 31, 31 }, // Hidden Power: Dark/70
+            EVs = new byte[] { 208, 0, 0, 48, 0, 252 },
+            Moves = new PBEMove[] { PBEMove.Encore, PBEMove.Substitute, PBEMove.BatonPass, PBEMove.BugBuzz },
+            PPUps = new byte[] { 3, 3, 3, 3 }
+        };*/
+        // Missing Yawn
+        // Missing Uturn
+        /*public static PBEPokemonShell Accelgor_4_Uber { get; } = new PBEPokemonShell
+        {
+            Species = PBESpecies.Accelgor,
+            Nickname = "Sheba",
+            Level = 100,
+            Friendship = 255,
+            Item = PBEItem.FocusSash,
+            Ability = PBEAbility.Unburden,
+            Gender = PBEGender.Female,
+            Nature = PBENature.Naive,
+            IVs = new byte[] { 0, 31, 0, 31, 3, 31 }, // Hidden Power: Ice/66
+            EVs = new byte[] { 0, 4, 0, 252, 0, 252 },
+            Moves = new PBEMove[] { PBEMove.Spikes, PBEMove.Yawn, PBEMove.BugBuzz, PBEMove.Uturn },
+            PPUps = new byte[] { 3, 3, 3, 3 }
+        };*/
+        // Missing Yawn
+        /*public static PBEPokemonShell Accelgor_5_OU { get; } = new PBEPokemonShell
+        {
+            Species = PBESpecies.Accelgor,
+            Nickname = "Sheba",
+            Level = 100,
+            Friendship = 255,
+            Item = PBEItem.FocusSash,
+            Ability = PBEAbility.Unburden,
+            Gender = PBEGender.Female,
+            Nature = PBENature.Timid,
+            IVs = new byte[] { 31, 31, 31, 31, 31, 31 }, // Hidden Power: Dark/70
+            EVs = new byte[] { 88, 0, 0, 232, 0, 188 },
+            Moves = new PBEMove[] { PBEMove.Spikes, PBEMove.BugBuzz, PBEMove.FinalGambit, PBEMove.Yawn },
+            PPUps = new byte[] { 3, 3, 3, 3 }
+        };*/
+        // Missing Yawn
+        /*public static PBEPokemonShell Accelgor_6_UU { get; } = new PBEPokemonShell
+        {
+            Species = PBESpecies.Accelgor,
+            Nickname = "Sheba",
+            Level = 100,
+            Friendship = 255,
+            Item = PBEItem.FocusSash,
+            Ability = PBEAbility.Unburden,
+            Gender = PBEGender.Female,
+            Nature = PBENature.Timid,
+            IVs = new byte[] { 31, 31, 31, 31, 31, 31 }, // Hidden Power: Dark/70
+            EVs = new byte[] { 4, 0, 0, 252, 0, 252 },
+            Moves = new PBEMove[] { PBEMove.Spikes, PBEMove.BugBuzz, PBEMove.FocusBlast, PBEMove.Yawn },
+            PPUps = new byte[] { 3, 3, 3, 3 }
+        };*/
+        public static PBEPokemonShell Accelgor_7_UU { get; } = new PBEPokemonShell
+        {
+            Species = PBESpecies.Accelgor,
+            Nickname = "Sheba",
+            Level = 100,
+            Friendship = 255,
+            Item = PBEItem.ChoiceSpecs,
+            Ability = PBEAbility.StickyHold,
+            Gender = PBEGender.Female,
+            Nature = PBENature.Modest,
+            IVs = new byte[] { 31, 30, 30, 31, 31, 31 }, // Hidden Power: Ice/70
+            EVs = new byte[] { 4, 0, 0, 252, 0, 252 },
+            Moves = new PBEMove[] { PBEMove.BugBuzz, PBEMove.FocusBlast, PBEMove.HiddenPower, PBEMove.GigaDrain },
+            PPUps = new byte[] { 3, 3, 3, 3 }
+        };
+        // Missing Encore
+        /*public static PBEPokemonShell Accelgor_8_VGC12 { get; } = new PBEPokemonShell
         {
             Species = PBESpecies.Accelgor,
             Nickname = "Sheba",
@@ -36,9 +164,9 @@ namespace Kermalis.PokemonBattleEngine
             Nature = PBENature.Timid,
             IVs = new byte[] { 31, 31, 31, 31, 31, 31 }, // Hidden Power: Dark/70
             EVs = new byte[] { 252, 0, 0, 220, 0, 36 },
-            Moves = new PBEMove[] { PBEMove.FinalGambit, PBEMove.BugBuzz, PBEMove.AcidSpray, PBEMove.Protect },
+            Moves = new PBEMove[] { PBEMove.FinalGambit, PBEMove.BugBuzz, PBEMove.Encore, PBEMove.Protect },
             PPUps = new byte[] { 3, 3, 3, 3 }
-        };
+        };*/
         public static PBEPokemonShell Alomomola_VGC { get; } = new PBEPokemonShell
         {
             Species = PBESpecies.Alomomola,
@@ -174,16 +302,6 @@ namespace Kermalis.PokemonBattleEngine
             Moves = new PBEMove[] { PBEMove.IcicleCrash, PBEMove.ShadowClaw, PBEMove.Roar, PBEMove.Protect },
             PPUps = new byte[] { 3, 3, 3, 3 }
         };
-        /// <summary>
-        /// <para>Beedrill NU</para>
-        /// <para>Item: Choice Scarf</para>
-        /// <para>Ability: Swarm</para>
-        /// <para>Nature: Jolly (+Spe -SpAtk)</para>
-        /// <para>IVs: 0 HP, 0 Def, 0 SpDef</para>
-        /// <para>Hidden Power: Ghost/46</para>
-        /// <para>EVs: 252 Atk, 252 Spe</para>
-        /// <para>Moves: Toxic Spikes, Endeavor, X-Scissor, Agility</para>
-        /// </summary>
         public static PBEPokemonShell Beedrill_NU { get; } = new PBEPokemonShell
         {
             Species = PBESpecies.Beedrill,
@@ -229,15 +347,6 @@ namespace Kermalis.PokemonBattleEngine
             Moves = new PBEMove[] { PBEMove.SuckerPunch, PBEMove.NightSlash, PBEMove.IronHead, PBEMove.Protect },
             PPUps = new byte[] { 3, 3, 3, 3 }
         };
-        /// <summary>
-        /// <para>Blastoise UU</para>
-        /// <para>Item: Leftovers</para>
-        /// <para>Ability: Rain Dish</para>
-        /// <para>Nature: Relaxed (+Def -Spe)</para>
-        /// <para>Hidden Power: Dark/70</para>
-        /// <para>EVs: 252 HP, 252 Def, 4 SpDef</para>
-        /// <para>Moves: Substitute, Scald, Protect, Rain Dance</para>
-        /// </summary>
         public static PBEPokemonShell Blastoise_UU { get; } = new PBEPokemonShell
         {
             Species = PBESpecies.Blastoise,
@@ -248,7 +357,7 @@ namespace Kermalis.PokemonBattleEngine
             Ability = PBEAbility.RainDish,
             Gender = PBEGender.Male,
             Nature = PBENature.Relaxed,
-            IVs = new byte[] { 31, 31, 31, 31, 31, 31 },
+            IVs = new byte[] { 31, 31, 31, 31, 31, 31 }, // Hidden Power: Dark/70
             EVs = new byte[] { 252, 0, 252, 0, 4, 0 },
             Moves = new PBEMove[] { PBEMove.Substitute, PBEMove.Scald, PBEMove.Roar, PBEMove.RainDance }, // Rapid Spin, Scald, Roar, Foresight
             PPUps = new byte[] { 3, 3, 3, 3 }
@@ -313,15 +422,6 @@ namespace Kermalis.PokemonBattleEngine
             Moves = new PBEMove[] { PBEMove.BraveBird, PBEMove.RockSlide, PBEMove.Superpower, PBEMove.Protect },
             PPUps = new byte[] { 3, 3, 3, 3 }
         };
-        /// <summary>
-        /// <para>Butterfree RU</para>
-        /// <para>Item: Leftovers</para>
-        /// <para>Ability: Compoundeyes</para>
-        /// <para>Nature: Timid (+Spe -Atk)</para>
-        /// <para>Hidden Power: Dark/70</para>
-        /// <para>EVs: 252 SpAtk, 4 SpDef, 252 Spe</para>
-        /// <para>Moves: Sleep Powder, Quiver Dance, Bug Buzz, Substitute</para>
-        /// </summary>
         public static PBEPokemonShell Butterfree_RU { get; } = new PBEPokemonShell
         {
             Species = PBESpecies.Butterfree,
@@ -332,7 +432,7 @@ namespace Kermalis.PokemonBattleEngine
             Ability = PBEAbility.Compoundeyes,
             Gender = PBEGender.Female,
             Nature = PBENature.Timid,
-            IVs = new byte[] { 31, 31, 31, 31, 31, 31 },
+            IVs = new byte[] { 31, 31, 31, 31, 31, 31 }, // Hidden Power: Dark/70
             EVs = new byte[] { 0, 0, 0, 252, 4, 252 },
             Moves = new PBEMove[] { PBEMove.SleepPowder, PBEMove.QuiverDance, PBEMove.BugBuzz, PBEMove.Substitute },
             PPUps = new byte[] { 3, 3, 3, 3 }
@@ -367,15 +467,6 @@ namespace Kermalis.PokemonBattleEngine
             Moves = new PBEMove[] { PBEMove.HeatWave, PBEMove.ShadowBall, PBEMove.TrickRoom, PBEMove.Protect },
             PPUps = new byte[] { 3, 3, 3, 3 }
         };
-        /// <summary>
-        /// <para>Charizard VGC</para>
-        /// <para>Item: Choice Scarf</para>
-        /// <para>Ability: Solar Power</para>
-        /// <para>Nature: Modest (+SpAtk -Atk)</para>
-        /// <para>Hidden Power: Ice/70</para>
-        /// <para>EVs: 252 SpAtk, 4 SpDef, 252 Spe</para>
-        /// <para>Moves: Fire Blast, Air Slash, Focus Blast, Hidden Power </para>
-        /// </summary>
         public static PBEPokemonShell Charizard_VGC { get; } = new PBEPokemonShell
         {
             Species = PBESpecies.Charizard,
@@ -386,7 +477,7 @@ namespace Kermalis.PokemonBattleEngine
             Ability = PBEAbility.SolarPower,
             Gender = PBEGender.Male,
             Nature = PBENature.Modest,
-            IVs = new byte[] { 31, 30, 30, 31, 31, 31 },
+            IVs = new byte[] { 31, 30, 30, 31, 31, 31 }, // Hidden Power: Ice/70
             EVs = new byte[] { 0, 0, 0, 252, 4, 252 },
             Moves = new PBEMove[] { PBEMove.FireBlast, PBEMove.AirSlash, PBEMove.FocusBlast, PBEMove.HiddenPower },
             PPUps = new byte[] { 3, 3, 3, 3 }
@@ -736,15 +827,6 @@ namespace Kermalis.PokemonBattleEngine
             Moves = new PBEMove[] { PBEMove.Earthquake, PBEMove.RockSlide, PBEMove.XScissor, PBEMove.Protect },
             PPUps = new byte[] { 3, 3, 3, 3 }
         };
-        /// <summary>
-        /// <para>Farfetch'd OU</para>
-        /// <para>Item: Stick</para>
-        /// <para>Ability: Defiant</para>
-        /// <para>Nature: Adamant (+Atk -SpAtk)</para>
-        /// <para>Hidden Power: Dark/70</para>
-        /// <para>EVs: 4 Atk, 252 Atk, 252 Spe</para>
-        /// <para>Moves: Swords Dance, Return, Air Slash, Steel Wing</para>
-        /// </summary>
         public static PBEPokemonShell Farfetchd_OU { get; } = new PBEPokemonShell
         {
             Species = PBESpecies.Farfetchd,
@@ -755,7 +837,7 @@ namespace Kermalis.PokemonBattleEngine
             Ability = PBEAbility.Defiant,
             Gender = PBEGender.Male,
             Nature = PBENature.Adamant,
-            IVs = new byte[] { 31, 31, 31, 31, 31, 31 },
+            IVs = new byte[] { 31, 31, 31, 31, 31, 31 }, // Hidden Power: Dark/70
             EVs = new byte[] { 4, 252, 0, 0, 0, 252 },
             Moves = new PBEMove[] { PBEMove.SwordsDance, PBEMove.Return, PBEMove.BraveBird, PBEMove.SteelWing }, // Swords Dance, Return, Brave Bird, Revenge
             PPUps = new byte[] { 3, 3, 3, 3 }
@@ -1435,15 +1517,6 @@ namespace Kermalis.PokemonBattleEngine
             Moves = new PBEMove[] { PBEMove.TrickRoom, PBEMove.Psychic, PBEMove.HelpingHand, PBEMove.Protect }, // Trick Room, Psychic, Helping Hand, Imprison
             PPUps = new byte[] { 3, 3, 3, 3 }
         };
-        /// <summary>
-        /// <para>Ninetales VGC</para>
-        /// <para>Item: Flame Plate</para>
-        /// <para>Ability: Drought</para>
-        /// <para>Nature: Modest (+SpAtk -Atk)</para>
-        /// <para>Hidden Power: Ice/70</para>
-        /// <para>EVs: 4 HP, 252 SpAtk, 252 Spe</para>
-        /// <para>Moves: Flamethrower, Hidden Power, Energy Ball, Protect</para>
-        /// </summary>
         public static PBEPokemonShell Ninetales_VGC { get; } = new PBEPokemonShell
         {
             Species = PBESpecies.Ninetales,
@@ -1454,7 +1527,7 @@ namespace Kermalis.PokemonBattleEngine
             Ability = PBEAbility.Drought,
             Gender = PBEGender.Female,
             Nature = PBENature.Modest,
-            IVs = new byte[] { 31, 30, 30, 31, 31, 31 },
+            IVs = new byte[] { 31, 30, 30, 31, 31, 31 }, // Hidden Power: Ice/70
             EVs = new byte[] { 4, 0, 0, 252, 0, 252 },
             Moves = new PBEMove[] { PBEMove.Flamethrower, PBEMove.HiddenPower, PBEMove.EnergyBall, PBEMove.Protect },
             PPUps = new byte[] { 3, 3, 3, 3 }
@@ -1504,15 +1577,6 @@ namespace Kermalis.PokemonBattleEngine
             Moves = new PBEMove[] { PBEMove.SpacialRend, PBEMove.Surf, PBEMove.FireBlast, PBEMove.Thunder },
             PPUps = new byte[] { 3, 3, 3, 3 }
         };
-        /// <summary>
-        /// <para>Pikachu VGC</para>
-        /// <para>Item: Light Ball</para>
-        /// <para>Ability: Lightningrod</para>
-        /// <para>Nature: Rash (+SpAtk -SpDef)</para>
-        /// <para>Hidden Power: Ice/70</para>
-        /// <para>EVs: 4 Atk, 252 SpAtk, 252 Spe</para>
-        /// <para>Moves: Substitute, Thunderbolt, Hidden Power, Grass Knot</para>
-        /// </summary>
         public static PBEPokemonShell Pikachu_VGC { get; } = new PBEPokemonShell
         {
             Species = PBESpecies.Pikachu,
@@ -1523,7 +1587,7 @@ namespace Kermalis.PokemonBattleEngine
             Ability = PBEAbility.Lightningrod,
             Gender = PBEGender.Female,
             Nature = PBENature.Rash,
-            IVs = new byte[] { 31, 30, 30, 31, 31, 31 },
+            IVs = new byte[] { 31, 30, 30, 31, 31, 31 }, // Hidden Power: Ice/70
             EVs = new byte[] { 0, 4, 0, 252, 0, 252 },
             Moves = new PBEMove[] { PBEMove.Protect, PBEMove.Thunderbolt, PBEMove.HiddenPower, PBEMove.GrassKnot }, // Fake Out, Thunderbolt, Hidden Power Ice, Grass Knot
             PPUps = new byte[] { 3, 3, 3, 3 }
@@ -2068,15 +2132,6 @@ namespace Kermalis.PokemonBattleEngine
             Moves = new PBEMove[] { PBEMove.MuddyWater, PBEMove.IceBeam, PBEMove.HiddenPower, PBEMove.Detect },
             PPUps = new byte[] { 3, 3, 3, 3 }
         };
-        /// <summary>
-        /// <para>Venusaur VGC</para>
-        /// <para>Item: Life Orb</para>
-        /// <para>Ability: Chlorophyll</para>
-        /// <para>Nature: Modest (+SpAtk -Atk)</para>
-        /// <para>Hidden Power: Ice/70</para>
-        /// <para>EVs: 4 HP, 252 SpAtk, 252 Spe</para>
-        /// <para>Moves: Sleep Powder, Energy Ball, Hidden Power, Protect</para>
-        /// </summary>
         public static PBEPokemonShell Venusaur_VGC { get; } = new PBEPokemonShell
         {
             Species = PBESpecies.Venusaur,
@@ -2087,7 +2142,7 @@ namespace Kermalis.PokemonBattleEngine
             Ability = PBEAbility.Chlorophyll,
             Gender = PBEGender.Female,
             Nature = PBENature.Modest,
-            IVs = new byte[] { 31, 30, 30, 31, 31, 31 },
+            IVs = new byte[] { 31, 30, 30, 31, 31, 31 }, // Hidden Power: Ice/70
             EVs = new byte[] { 4, 0, 0, 252, 0, 252 },
             Moves = new PBEMove[] { PBEMove.SleepPowder, PBEMove.EnergyBall, PBEMove.HiddenPower, PBEMove.Protect },
             PPUps = new byte[] { 3, 3, 3, 3 }

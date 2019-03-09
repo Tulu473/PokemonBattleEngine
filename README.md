@@ -26,6 +26,7 @@ Check [Settings.cs](PokemonBattleEngine/Data/Settings.cs)
 ----
 # PokemonBattleEngine Uses:
 * [My fork of Ether.Network](https://github.com/Kermalis/Ether.Network)
+* [Smogon Strategy Pokédex](https://www.smogon.com/dex/)
 
 # PokemonBattleEngineClient Uses:
 * [Avalonia](https://github.com/AvaloniaUI/Avalonia)
